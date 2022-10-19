@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+.black-hightlight {
+    background-color: black !important;
+    color: white;
+    padding: 0px 8px;
+}
+
+.margin-100 {
+    margin: 10px 0px;
+}
+
+.margin-150 {
+    margin: 15px 0px;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+hr {
+    margin: 20px;
+    border: none;
+}
+
+.padding15 {
+    padding: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-tags {
+    font-size: 0.75em;
+    background-color: white;
+    padding: 16px;
+}
+
+.text-tags span {
+    background-color: rgb(220, 220, 220);
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.tron {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.subpopular li:hover {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+#all {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1 !important;
+}
+
+#header {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.header-text {
+    font-size: 2.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-left {
+    width: 66.6667%;
+    display: inline-block;
+}
+
+.left-full {
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.wood-img {
+    width: 100%;
+    display: block;
+}
+
+.left-full-master {
+    padding: 0.15px 16px;
+    background-color: white !important;
+
+}
+
+.left-full-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px 0px;
+}
+
+.left-full-subheader {
+    font-size: 1.125em;
+}
+
+.left-full-text {
+    font-size: 0.9375em;
+    line-height: 1.5;
+    text-align: justify !important;
+    padding: 12px 0px;
+}
+
+.readmore-full {
+    font-size: 0.9375em;
+    font-weight: bold;
+}
+
+.readmore {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 24px;
+    border: solid 1px rgb(186, 181, 181);
+}
+
+.readmore:hover {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.comments {
+    float: right;
+    padding: 12px 24px;
+}
+
+.container-right {
+    width: 33.3333%;
+    float: right;
+}
+
+.right-full {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.avatar-girl {
+    width: 100%;
+    display: block;
+}
+
+.right-fulltext {
+    padding: 0.15px 16px;
+    background-color: white;
+}
+
+.right-full-header {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.right-full-subheader {
+    font-size: 0.9375em;
+    line-height: 1.5;
+}
+
+.popular-tag-header {
+    padding: 24px 16px;
+    background-color: #f1f1f1 !important;
+    font-weight: 900;
+}
+
+.anhnho {
+    width: 50px;
+    display: block;
+    float: left;
+    margin-right: 16px;
+}
+
+.anhnho-text {
+    line-height: 1.5;
+}
+.anhnho-text span {
+    font-size: 0.75em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.subpopular li {
+    background-color: white;
+    padding: 16px;
+    border-bottom: solid 1px rgb(212, 210, 210);
+}
+
+#footer {
+    background-color: #616161 !important;
+    height: auto;
+    width: 100%;
+}
+
+.footer-text {
+    padding: 32px 16px;
+    color: white;
+}
+
+.previous {
+    float: left;
+    padding: 12px 24px;
+    background-color: #000 !important;
+    opacity: 20%;
+    margin-right: 4px;
+}
+
+.next {
+    padding: 12px 24px;
+    background-color: #000 !important;
+    display: inline-block;
+}
+
+.footer-link {
+    padding: 32px 0px;
+}
+
+.footer-link a {
+    color: white;
+}
+
+.next:hover {
+    background-color: rgb(195, 194, 194) !important;
+    cursor: pointer;
+    color: #000;
+}
+
+/*--Tablet--*/
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-left,
+    .container-right {
+        width: 100%;
+    }
+}
+
+/*--Mobile--*/
+@media only screen and (max-width:46.1875em) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-left,
+    .container-right {
+        width: 100%;
+    }
+}
+
+/*GalaxyFOld*/
+@media only screen and (min-width: 17.5em) and (max-width: 20em) {
+    .comments {
+        display: none;
+    }
+}
